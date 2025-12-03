@@ -1,0 +1,42 @@
+# Large data files
+*.csv
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.m4v
+
+# Data directories
+raw_nfl_clips/
+nfl-player-contact-detection/train/
+nfl-player-contact-detection/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output directories
+alignment_check_output/
+worldpose_calibration/
+*.jpg
+*.png
+*.jpeg
+
